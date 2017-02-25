@@ -1,0 +1,41 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+body {background-image: url(GOPR3477.jpeg);
+background-size:100%;
+background-repeat:no-repeat;}
+
+
+.row {text-align: center}
+
+
+h1 {font-style: bold;
+  color:#476E7F;
+    font-size: 35px;
+    text-align: center;}
+
+
+.btn {margin: 2px;
+  width:100px;
+  height:100px;
+background-color: #FFE5C0;
+color:#476E7F;}
+
+
+.headers {background-color: #DDE5F0;
+position:relative;
+margin-left: auto;
+margin-right: auto;
+color:#476E7F;
+font-size:35px;
+text-align: center;
+width:300px;
+margin-top: 50px;}
+
+
+.attackButton {background-image: url(AttackButton.jpg); 
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.button-text {font-size:30px;}

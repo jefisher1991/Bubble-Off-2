@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bubble Off</title>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fishstyles.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="headers">Bubble Off!!</div>
+        <div id="players" class="row ">
+            <h1>Players</h1>
+            <div id="player1" class="col-xs-3">
+            </div>
+            <div id="player2" class="col-xs-3">
+            </div>
+            <div id="player3" class="col-xs-3">
+            </div>
+            <div id="player4" class="col-xs-3">
+            </div>
+        </div>
+        <div style="padding: 60px 60px"></div>
+        <div class="row">
+            <div id="attacker" class="col-xs-4">
+              <h1>Attacker</h1>
+              
+            </div>
+            <div class="col-xs-4">
+                <div class="row">
+                  <button id="attackButton" class="btn btn-lg btn-danger attackButton" type="button" name="button"></button>
+                  <p id="attackerDescription" class="col-xs-12"></p>
+                  <p id="defenderDescription" class="col-xs-12"></p>
+                </div>
+            </div>
+            <div id="defender" class="col-xs-4">
+            <h1>Defender</h1>
+              
+            </div>
+        </div>
+        <div style="padding: 60px 60px"></div>
+        <div id="enemies" class="col-xs-12">
+          <h1>Enemies</h1>
+
+        </div>
+
+    </div>
+    <script src="fishscripts.js" type="text/javascript"></script>
+</body>
+
+</html>
